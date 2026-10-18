@@ -1,0 +1,81 @@
+#contact{
+    background-color: black;
+    padding: 20px 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+#contact h1{
+    text-align: center;
+    color: #176b45;
+
+}
+#contact{
+    text-align: center;
+    line-height: 2;
+}
+.contact-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+.contact-info,
+.contact-form{
+    background-color: aliceblue;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(red green blue / alpha);
+    flex: 1;
+    min-width: 250px;
+
+}
+.contact-info h2,
+.contact-form h2{
+    color: bisque;
+}
+.contact-info p {
+    line-height: 2;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label{
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid hotpink;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.contact-form button {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: azure;
+    color: bisque;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contact-form button:hover {
+    background-color: aquamarine;
+}
+.social links {
+    text-align: center;
+    margin-top: 30px;
+}
+footer{
+    background-color: antiquewhite;
+    color: bisque;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}

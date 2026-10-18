@@ -1,0 +1,24 @@
+.fruits{
+    background-color: beige;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid blue;
+    text-align: center;
+    color: azure;
+}
+.cars{
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 20px;
+    border: 2px grey black;
+    text-align: center;
+    color: gold;
+}
+.Fruits{
+    background-color: azure;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid greenyellow;
+    text-align: center;
+    color: indigo;
+}
